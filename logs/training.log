@@ -1,0 +1,103 @@
+2024-12-21 23:29:32,771 - __main__ - INFO - Starting model training pipeline
+2024-12-21 23:29:32,790 - __main__ - INFO - Performing feature engineering
+2024-12-21 23:29:42,780 - __main__ - INFO - Training random_forest
+2024-12-21 23:29:44,528 - __main__ - INFO - Optimizing hyperparameters for random_forest
+2024-12-22 02:27:07,943 - __main__ - INFO - Starting model training pipeline
+2024-12-22 02:27:07,953 - __main__ - INFO - Performing feature engineering
+2024-12-22 02:27:21,063 - __main__ - INFO - Training random_forest
+2024-12-22 02:27:22,329 - __main__ - INFO - Optimizing hyperparameters for random_forest
+2024-12-22 02:43:03,012 - __main__ - INFO - Training xgboost
+2024-12-22 02:43:03,212 - __main__ - INFO - Optimizing hyperparameters for xgboost
+2024-12-22 02:48:23,067 - __main__ - INFO - Training lightgbm
+2024-12-22 02:48:23,248 - __main__ - INFO - Optimizing hyperparameters for lightgbm
+2024-12-22 02:55:06,877 - __main__ - INFO - Model training completed
+2024-12-22 05:43:44,768 - __main__ - INFO - Starting model training pipeline
+2024-12-22 05:43:44,784 - __main__ - INFO - Performing feature engineering
+2024-12-22 05:43:52,014 - __main__ - INFO - 
+==================================================
+2024-12-22 05:43:52,014 - __main__ - INFO - Training random_forest
+2024-12-22 05:43:52,014 - __main__ - INFO - ==================================================
+2024-12-22 05:43:52,586 - __main__ - INFO - Optimizing hyperparameters for random_forest
+2024-12-22 05:53:34,702 - __main__ - INFO - Best parameters for random_forest:
+2024-12-22 05:53:34,704 - __main__ - INFO - n_estimators: 110
+2024-12-22 05:53:34,706 - __main__ - INFO - max_depth: 6
+2024-12-22 05:53:34,706 - __main__ - INFO - min_samples_split: 7
+2024-12-22 05:53:34,706 - __main__ - INFO - min_samples_leaf: 1
+2024-12-22 05:53:43,179 - __main__ - INFO - 
+Performance Metrics for random_forest:
+2024-12-22 05:53:43,179 - __main__ - INFO - ------------------------------
+2024-12-22 05:53:43,179 - __main__ - INFO - accuracy: 0.9166
+2024-12-22 05:53:43,179 - __main__ - INFO - precision: 0.9993
+2024-12-22 05:53:43,179 - __main__ - INFO - recall: 0.8876
+2024-12-22 05:53:43,179 - __main__ - INFO - f1: 0.9401
+2024-12-22 05:53:43,179 - __main__ - INFO - roc_auc: 0.9429
+2024-12-22 05:53:43,179 - __main__ - INFO - ------------------------------
+2024-12-22 05:53:45,455 - __main__ - INFO - 
+Top 5 Important Features for random_forest:
+2024-12-22 05:53:45,507 - __main__ - INFO -                        feature  importance
+4   Traffic Conditions_encoded    0.575139
+3   Weather Conditions_encoded    0.404347
+10        planned_transit_days    0.005456
+7              distance_zscore    0.003108
+9      vehicle_route_frequency    0.003080
+2024-12-22 05:54:10,144 - __main__ - INFO - 
+==================================================
+2024-12-22 05:54:10,144 - __main__ - INFO - Training xgboost
+2024-12-22 05:54:10,144 - __main__ - INFO - ==================================================
+2024-12-22 05:54:10,225 - __main__ - INFO - Optimizing hyperparameters for xgboost
+2024-12-22 05:57:02,020 - __main__ - INFO - Best parameters for xgboost:
+2024-12-22 05:57:02,020 - __main__ - INFO - n_estimators: 233
+2024-12-22 05:57:02,020 - __main__ - INFO - max_depth: 7
+2024-12-22 05:57:02,020 - __main__ - INFO - learning_rate: 0.2219589457791847
+2024-12-22 05:57:02,020 - __main__ - INFO - subsample: 0.974462429976231
+2024-12-22 05:57:02,020 - __main__ - INFO - colsample_bytree: 0.6379181103470667
+2024-12-22 05:57:05,749 - __main__ - INFO - 
+Performance Metrics for xgboost:
+2024-12-22 05:57:05,749 - __main__ - INFO - ------------------------------
+2024-12-22 05:57:05,749 - __main__ - INFO - accuracy: 0.8957
+2024-12-22 05:57:05,749 - __main__ - INFO - precision: 0.9560
+2024-12-22 05:57:05,749 - __main__ - INFO - recall: 0.9001
+2024-12-22 05:57:05,749 - __main__ - INFO - f1: 0.9272
+2024-12-22 05:57:05,749 - __main__ - INFO - roc_auc: 0.8917
+2024-12-22 05:57:05,749 - __main__ - INFO - ------------------------------
+2024-12-22 05:57:07,447 - __main__ - INFO - 
+Top 5 Important Features for xgboost:
+2024-12-22 05:57:07,451 - __main__ - INFO -                        feature  importance
+3   Weather Conditions_encoded    0.497419
+4   Traffic Conditions_encoded    0.485114
+10        planned_transit_days    0.003720
+5                Distance (km)    0.001849
+7              distance_zscore    0.001777
+2024-12-22 05:57:44,248 - __main__ - INFO - 
+==================================================
+2024-12-22 05:57:44,248 - __main__ - INFO - Training lightgbm
+2024-12-22 05:57:44,248 - __main__ - INFO - ==================================================
+2024-12-22 05:57:44,436 - __main__ - INFO - Optimizing hyperparameters for lightgbm
+2024-12-22 06:03:46,325 - __main__ - INFO - Best parameters for lightgbm:
+2024-12-22 06:03:46,325 - __main__ - INFO - n_estimators: 126
+2024-12-22 06:03:46,326 - __main__ - INFO - max_depth: 3
+2024-12-22 06:03:46,326 - __main__ - INFO - learning_rate: 0.02266523384096058
+2024-12-22 06:03:46,326 - __main__ - INFO - subsample: 0.8349542531254546
+2024-12-22 06:03:46,326 - __main__ - INFO - colsample_bytree: 0.8853867684469438
+2024-12-22 06:03:49,513 - __main__ - INFO - 
+Performance Metrics for lightgbm:
+2024-12-22 06:03:49,514 - __main__ - INFO - ------------------------------
+2024-12-22 06:03:49,514 - __main__ - INFO - accuracy: 0.9170
+2024-12-22 06:03:49,514 - __main__ - INFO - precision: 1.0000
+2024-12-22 06:03:49,514 - __main__ - INFO - recall: 0.8875
+2024-12-22 06:03:49,514 - __main__ - INFO - f1: 0.9404
+2024-12-22 06:03:49,514 - __main__ - INFO - roc_auc: 0.9438
+2024-12-22 06:03:49,514 - __main__ - INFO - ------------------------------
+2024-12-22 06:03:50,812 - __main__ - INFO - 
+Top 5 Important Features for lightgbm:
+2024-12-22 06:03:50,813 - __main__ - INFO -                        feature  importance
+4   Traffic Conditions_encoded         319
+3   Weather Conditions_encoded         215
+9      vehicle_route_frequency         143
+10        planned_transit_days         138
+5                Distance (km)          23
+2024-12-22 06:03:58,617 - __main__ - INFO - 
+==================================================
+2024-12-22 06:03:58,617 - __main__ - INFO - Model training completed
+2024-12-22 06:03:58,617 - __main__ - INFO - Best performing model: lightgbm (F1 Score: 0.9404)
+2024-12-22 06:03:58,617 - __main__ - INFO - ==================================================

@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ml-proj-ft/mlruns/470395361580514754/7c4226a74e57435ca419839694dc7079/artifacts
+end_time: 1734815903043
+entry_point_name: ''
+experiment_id: '470395361580514754'
+lifecycle_stage: active
+run_id: 7c4226a74e57435ca419839694dc7079
+run_name: xgboost
+run_uuid: 7c4226a74e57435ca419839694dc7079
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734815583054
+status: 3
+tags: []
+user_id: HP

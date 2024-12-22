@@ -1,0 +1,12 @@
+feature,importance
+Traffic Conditions_encoded,319
+Weather Conditions_encoded,215
+vehicle_route_frequency,143
+planned_transit_days,138
+Distance (km),23
+route_frequency,13
+Origin_encoded,4
+Destination_encoded,1
+Vehicle Type_encoded,1
+distance_log,0
+distance_zscore,0

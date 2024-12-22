@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ml-proj-ft/mlruns/470395361580514754/048ef684f4f241538cc78de0b7bfd53a/artifacts
+end_time: 1734816306869
+entry_point_name: ''
+experiment_id: '470395361580514754'
+lifecycle_stage: active
+run_id: 048ef684f4f241538cc78de0b7bfd53a
+run_name: lightgbm
+run_uuid: 048ef684f4f241538cc78de0b7bfd53a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734815903075
+status: 3
+tags: []
+user_id: HP

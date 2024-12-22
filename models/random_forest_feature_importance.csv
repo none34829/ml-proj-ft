@@ -1,0 +1,12 @@
+feature,importance
+Traffic Conditions_encoded,0.5751387013588999
+Weather Conditions_encoded,0.40434730393864193
+planned_transit_days,0.005456376459765777
+distance_zscore,0.0031083688146317933
+vehicle_route_frequency,0.0030795490234275746
+distance_log,0.002841591489973528
+Distance (km),0.0023841159507555043
+route_frequency,0.0015588284333773875
+Destination_encoded,0.0009484282682810519
+Origin_encoded,0.0006454967411820194
+Vehicle Type_encoded,0.000491239521063411
