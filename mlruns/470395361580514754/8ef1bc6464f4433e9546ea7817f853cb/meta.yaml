@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ml-proj-ft/mlruns/470395361580514754/8ef1bc6464f4433e9546ea7817f853cb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '470395361580514754'
+lifecycle_stage: active
+run_id: 8ef1bc6464f4433e9546ea7817f853cb
+run_name: random_forest
+run_uuid: 8ef1bc6464f4433e9546ea7817f853cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734830259799
+status: 1
+tags: []
+user_id: HP

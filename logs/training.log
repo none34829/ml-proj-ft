@@ -101,3 +101,10 @@ Top 5 Important Features for lightgbm:
 2024-12-22 06:03:58,617 - __main__ - INFO - Model training completed
 2024-12-22 06:03:58,617 - __main__ - INFO - Best performing model: lightgbm (F1 Score: 0.9404)
 2024-12-22 06:03:58,617 - __main__ - INFO - ==================================================
+2024-12-22 06:47:33,218 - __main__ - INFO - Starting model training pipeline
+2024-12-22 06:47:33,227 - __main__ - INFO - Performing feature engineering
+2024-12-22 06:47:39,402 - __main__ - INFO - 
+==================================================
+2024-12-22 06:47:39,402 - __main__ - INFO - Training random_forest
+2024-12-22 06:47:39,404 - __main__ - INFO - ==================================================
+2024-12-22 06:47:39,862 - __main__ - INFO - Optimizing hyperparameters for random_forest
